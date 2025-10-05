@@ -1,3 +1,4 @@
+// FIX: 'Const' ko 'const' se badla gaya
 const express = require('express');
 const app = express();
 __path = process.cwd()
@@ -22,7 +23,7 @@ app.listen(PORT, () => {
     console.log(`
 Don't Forget To Give Star ‼️
 
-𝗖𝗬𝗕𝗘𝗥 𝗔𝗡𝗨𝗪𝗛 𝗠𝗗 𝗠𝗜𝗡𝗜 𝗕𝗢𝗧
+FARIMA 𝗠𝗗 𝗠𝗜𝗡𝗜 𝗕𝗢𝗧
 
 Server running on http://localhost:` + PORT)
 });
